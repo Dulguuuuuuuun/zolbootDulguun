@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+.zurag{
+   width: 50%;
+    height: 100vh;
+    
+}
+.container{
+    display: flex;
+
+}
+.logo{
+position: absolute;
+right: 1070px;
+bottom: 500px;
+height: 80px;
+width: 80px;
+border-radius: 50%;
+border:8px solid white;
+}
+.logoTwo{
+    position: absolute;
+    right: 460px;
+    bottom: 760px;
+    height: 110px;
+    width: 140px;
+    border-radius: 50%;
+    
+}
+
