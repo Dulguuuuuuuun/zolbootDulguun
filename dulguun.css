@@ -21,7 +21,7 @@ border:8px solid white;
 }
 .logoTwo{
     position: absolute;
-    right: 460px;
+    right: 510px;
     bottom: 760px;
     height: 110px;
     width: 140px;
@@ -29,3 +29,102 @@ border:8px solid white;
     
 }
 
+.box {
+    height: 220px;
+    width: 350px;
+    border: 1px solid red;
+    padding: 10px;
+    color: rgb(237, 49, 93);
+    border-radius: 3%;
+    border-style:dashed;
+    position:absolute;
+    left: 1480px;
+    top: 660px;
+}
+.boxOne {
+    color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.boxTwo {
+    color: black;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.boxThree {
+    color: black;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.boxFour {
+    padding-left: 5px;
+    color: rgb(2, 55, 90);
+}
+.boxFive {
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    left: 1480px;
+    top: 600px;
+}
+.boxSix {
+    color: gray;
+}
+.boxSeven {
+    color: gray;
+    padding-left: 90px;
+}
+.boxSix:hover {
+    color:rgb(237, 49, 93) ;
+    cursor: pointer;
+}
+.boxSeven:hover {
+    color:rgb(237, 49, 93) ;
+    cursor: pointer;
+}
+.boxEight {
+    width: 370px;
+    background-color: rgb(245, 58, 96);
+    height: 45px;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left: 1480px;
+    top: 540px;
+}
+.boxEight:hover {
+    cursor: pointer;
+    box-shadow: inset 50px 50px rgb(240, 100, 120);
+}
+.utas{
+    position: absolute;
+    right: 385px;
+    bottom: 680px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+}
+
+.pass{
+    position: absolute;
+    right: 385px;
+    bottom: 610px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 40px;
+}
